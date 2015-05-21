@@ -1,0 +1,624 @@
+.background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* Flat Colors */
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: 0% 50%;
+}
+#bg #overlay {
+  background-color: rgba(45, 59, 68, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /*-----INSCRIPTION-----*/
+  /*-----CONNEXION-----*/
+  /*-----FORGOT-----*/
+}
+#bg #overlay #connecter {
+  float: right;
+  display: block;
+  height: 45px;
+  width: 155px;
+  line-height: 45px;
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-right: 60px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#bg #overlay #connecter:hover {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+#bg #overlay h2 {
+  font-family: Open sans;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  font-size: 43px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+#bg #overlay h3 {
+  margin-top: 0;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+#bg #overlay #signIn {
+  width: 750px;
+  height: 400px;
+  margin: auto;
+  margin-top: 80px;
+}
+#bg #overlay #signIn form {
+  width: 410px;
+  margin: auto;
+}
+#bg #overlay #signIn form .inputt {
+  float: left;
+  width: 400px;
+  height: 45px;
+  border-style: none;
+  font-size: 17px;
+  font-family: Open sans;
+  font-weight: 200;
+  margin-top: 1px;
+  padding-left: 20px;
+}
+#bg #overlay #signIn form .inputt:focus {
+  outline: 0;
+}
+#bg #overlay #signIn form #pwd {
+  margin-bottom: 30px;
+}
+#bg #overlay #signIn form #suscr {
+  display: block;
+  height: 45px;
+  width: 155px;
+  background-color: #3498db;
+  line-height: 45px;
+  border-bottom: 0 solid #3498db;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  margin: auto;
+}
+#bg #overlay #signIn form #suscr:hover {
+  background-color: #217dbb;
+}
+#bg #overlay #signIn form #suscr:focus {
+  outline: 0;
+}
+#bg #overlay #signIn form a {
+  display: block;
+  height: 45px;
+  width: 155px;
+  background-color: #2ecc71;
+  line-height: 45px;
+  border-bottom: 0 solid #2ecc71;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+#bg #overlay #signIn form a:hover {
+  background-color: #25a25a;
+}
+#bg #overlay #signIn form a:focus {
+  outline: 0;
+}
+#bg #overlay #connecth2 {
+  margin-top: 190px;
+}
+#bg #overlay #circle {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-left: 60px;
+  margin-top: -140px;
+}
+#bg #overlay #circle .fa {
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 21px;
+  margin-top: 6px;
+}
+#bg #overlay #connectForm {
+  width: 750px;
+  height: 400px;
+  margin: auto;
+  margin-top: 80px;
+}
+#bg #overlay #connectForm form {
+  width: 410px;
+  margin: auto;
+}
+#bg #overlay #connectForm form .inputt {
+  float: left;
+  width: 400px;
+  height: 45px;
+  border-style: none;
+  font-size: 17px;
+  font-family: Open sans;
+  font-weight: 200;
+  margin-top: 1px;
+  padding-left: 20px;
+}
+#bg #overlay #connectForm form .inputt:focus {
+  outline: 0;
+}
+#bg #overlay #connectForm form #pwd {
+  margin-bottom: 30px;
+}
+#bg #overlay #connectForm form #check {
+  float: left;
+  display: none;
+}
+#bg #overlay #connectForm form #checkLabel {
+  display: block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #ffffff;
+  float: left;
+  margin-top: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+#bg #overlay #connectForm form span {
+  display: inline-block;
+  font-family: Open sans;
+  font-weight: 200;
+  color: #ffffff;
+  margin-left: 20px;
+  padding-top: 11px;
+}
+#bg #overlay #connectForm form #connect {
+  display: block;
+  height: 45px;
+  width: 150px;
+  background-color: #2ecc71;
+  line-height: 45px;
+  border-bottom: 0 solid #2ecc71;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 3px;
+  float: right;
+  margin-top: 0;
+}
+#bg #overlay #connectForm form #connect:hover {
+  background-color: #25a25a;
+}
+#bg #overlay #connectForm form #connect:focus {
+  outline: 0;
+}
+#bg #overlay #connectForm form a {
+  display: block;
+  height: 45px;
+  width: 155px;
+  background-color: #2ecc71;
+  line-height: 45px;
+  border-bottom: 0 solid #2ecc71;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+#bg #overlay #connectForm form a:hover {
+  background-color: #25a25a;
+}
+#bg #overlay #connectForm form a:focus {
+  outline: 0;
+}
+#bg #overlay #connectForm #forgotLink {
+  display: block;
+  font-family: Open sans;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  width: 215px;
+  margin: auto;
+  margin-top: 40px;
+}
+#bg #overlay #connectForm #forgotLink:hover {
+  text-decoration: underline;
+}
+#bg #overlay #send {
+  display: block;
+  height: 45px;
+  width: 200px;
+  background-color: #3498db;
+  line-height: 45px;
+  border-bottom: 0 solid #3498db;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 19px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0;
+}
+#bg #overlay #send:hover {
+  background-color: #217dbb;
+}
+#bg #overlay #send:focus {
+  outline: 0;
+}
+/*-----HOME-----*/
+nav {
+  width: 59%;
+  margin: auto;
+  top: 0;
+  height: 80px;
+}
+nav ul {
+  width: 75%;
+}
+nav ul li {
+  float: left;
+  font-family: Open sans;
+  font-weight: 200;
+  list-style: none;
+  margin-right: 25px;
+  line-height: 70px;
+  font-size: 18px;
+}
+nav ul li:nth-child(6) {
+  margin-left: 200px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+nav ul li img {
+  float: right;
+  margin-top: 10px;
+  height: 55px;
+  width: 55px;
+  border-radius: 40px;
+  border: 1px solid #cccccc;
+}
+nav #loginSession {
+  float: left;
+  font-family: Open sans;
+  font-weight: 200;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 70px;
+  font-size: 20px;
+}
+#ulSlide {
+  width: 250px;
+  padding: 20px;
+  background-color: #303B46;
+  position: absolute;
+  margin-left: 1381px;
+  margin-top: -16px;
+  display: none;
+}
+#main {
+  width: 90%;
+}
+#formFlux {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+#formFlux #url {
+  display: block;
+  width: 400px;
+  height: 41px;
+  margin: auto;
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid #7c7c7c;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 38px;
+  text-align: center;
+}
+#formFlux #url::-webkit-input-placeholder {
+  color: #7c7c7c;
+}
+#formFlux #url::-moz-input-placeholder {
+  color: #7c7c7c;
+}
+#formFlux #url:focus {
+  outline: 0;
+}
+#formFlux #add {
+  display: block;
+  height: 40px;
+  width: 150px;
+  line-height: 40px;
+  border-radius: 0;
+  border: 2px solid #7c7c7c;
+  text-align: center;
+  color: #7c7c7c;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  margin: auto;
+  margin-left: 120px;
+  cursor: pointer;
+}
+#formFlux #add:hover {
+  background-color: #7c7c7c;
+  color: #ffffff;
+}
+#list {
+  text-align: center;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 33px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+#view {
+  width: 250px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: Open sans;
+  font-weight: 200;
+}
+#view li {
+  list-style: none;
+  text-align: center;
+}
+#view li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+#view li .flux {
+  text-decoration: underline;
+}
+#view li .fa {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-right: 5px;
+  text-align: center;
+}
+#view li .addFav {
+  color: #f1c40f;
+}
+#other {
+  width: 358px;
+  margin: auto;
+  margin-top: 30px;
+}
+#other #showFav {
+  display: block;
+  height: 40px;
+  width: 170px;
+  line-height: 40px;
+  border-radius: 0;
+  border: 2px solid #f39c12;
+  text-align: center;
+  color: #f39c12;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 10px;
+  float: left;
+}
+#other #showDel {
+  display: block;
+  height: 40px;
+  width: 170px;
+  line-height: 40px;
+  border-radius: 0;
+  border: 2px solid #7c7c7c;
+  text-align: center;
+  color: #7c7c7c;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+}
+#profil {
+  width: 500px;
+  margin: auto;
+}
+#profil #formProfil {
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+#profil #formProfil label {
+  display: block;
+  text-align: center;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#profil #formProfil .profilInput {
+  display: block;
+  width: 400px;
+  height: 41px;
+  margin: auto;
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid #7c7c7c;
+  font-family: Open sans;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 38px;
+  text-align: center;
+}
+#profil #formProfil .profilInput::-webkit-input-placeholder {
+  color: #7c7c7c;
+}
+#profil #formProfil .profilInput::-moz-input-placeholder {
+  color: #7c7c7c;
+}
+#profil #formProfil .profilInput:focus {
+  outline: 0;
+}
+#profil #formProfil .sub {
+  display: block;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  border-radius: 0;
+  border: 2px solid #7c7c7c;
+  text-align: center;
+  color: #7c7c7c;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: auto;
+  line-height: 44px;
+}
+#photo {
+  float: left;
+  margin-left: 30px;
+}
+#photo #upload {
+  display: block;
+  height: 36px;
+  width: 130px;
+  line-height: 36px;
+  border-radius: 3px;
+  border: 2px solid #3498db;
+  text-align: center;
+  color: #3498db;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#photo #delupload {
+  display: block;
+  height: 40px;
+  width: 200px;
+  line-height: 40px;
+  border-radius: 3px;
+  border: 2px solid #e74c3c;
+  text-align: center;
+  color: #e74c3c;
+  background-color: #ffffff;
+  font-family: Open sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 30px;
+  margin-top: 20px;
+}
+#article {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+#article h2 {
+  font-family: Open sans;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+#article img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+#article .titre {
+  display: block;
+  text-align: center;
+  font-family: Open sans;
+  font-weight: 600;
+}
+#article .date {
+  display: block;
+  font-family: Open sans;
+  font-weight: 400;
+  text-align: center;
+}
+#article p {
+  font-family: Open sans;
+  font-weight: 200;
+  text-align: center;
+}
